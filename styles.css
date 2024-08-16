@@ -3,6 +3,7 @@ body{
     font-weight: 400;
     font-style: normal;
     margin: 0;
+    border: 5px solid rgb(64, 62, 62);
 }
 
 .orange-color{
@@ -11,7 +12,7 @@ body{
 
 #large-font{
     font-size: 50px;
-    color: gray;
+    color: black;
 }
 
 #normal-font{
@@ -63,10 +64,10 @@ body{
 }
 
 .box-format{
-    padding: 30px;
-    margin: 30px;
-    border-radius: 5%;
-    box-shadow: 10px 10px 10px 5px gray;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 2px gray;
 }
 
 .img-center{
@@ -74,5 +75,44 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border-radius: 5%;
+    border-radius: 15px;
+}
+
+.space-box{
+    border: 20px 20px;
+    margin-left: 20%;
+}
+
+.follower-part{
+    margin: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 2px gray;
+}
+
+.follower-part h1{
+    font-size: 40px;
+}
+
+.follower-part p{
+    font-size: 15px;
+    color: gray;
+}
+
+.orange-red{
+    color: orangered;
+}
+
+.silver-color{
+    color: silver;
+}
+
+footer{
+    padding: 30px 50px 150px 50px;
+    background-color: black;
+    text-align: center;
+}
+
+footer p{
+    color: white;
 }
