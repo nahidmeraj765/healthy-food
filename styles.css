@@ -1,0 +1,57 @@
+body{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.orange-color{
+    color: orange;
+}
+
+#large-font{
+    font-size: 50px;
+    color: gray;
+}
+
+#normal-font{
+    font-size: 20px;
+    color: gray;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 20px 50px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+.half-width img{
+    width: 70%;
+}
+
+#about-us{
+    font-size: 35px;
+    color: gray;
+}
+
+.about-part{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+
+
